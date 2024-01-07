@@ -41,3 +41,31 @@ body {
     color: white;
     font-size: 32;
 }
+
+/* main */
+
+/* offer section */
+
+.offer {
+    width: 810px;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.offer h2 {
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer p {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.offer h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
