@@ -11,6 +11,7 @@ body {
 
 /* header */
 .banner {
+    font-family: 'Merriweather', serif;
     margin: 0px auto;
     width: 1300px;
     height: 600px;
@@ -18,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Merriweather', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +33,7 @@ body {
     width: 630px;
     font-size: 72px;
     color: white;
+    font-weight: 900;
 }
 
 .banner h2 {
@@ -68,4 +69,48 @@ body {
 .offer h3 {
     font-size: 48px;
     font-weight: 700;
+}
+
+/* .second banner */
+
+.secondBanner {
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 120px;
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('./resources/Group\ 70.png'), url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center, calc(100% - 150px) center, center;
+    padding-left: 120px;
+    padding-top: 120px;
+    margin-bottom: 120px;
+    color: white;
+}
+
+.secondBanner h2 {
+    font-size: 64px;
+    width: 640px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.secondBanner p {
+    width: 700px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, .7 );
+}
+
+.joinNow {
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ffffff00;
+    color: white;
+    margin-left: 30px ;
 }
