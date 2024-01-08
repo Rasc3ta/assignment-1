@@ -398,3 +398,60 @@ body {
   padding: 25px 30px;
   color: rgba(0, 0, 0, 0.8);
 }
+
+/* footer */
+
+footer {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+  padding: 120px;
+  width: 1600px;
+  height: 609px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressAndCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+  margin-top: 200px;
+}
+
+.others {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer li {
+  list-style-type: none;
+}
+
+.address {
+  width: 375px;
+}
+
+.unsubscribe {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 500;
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: black;
+  color: white ;
+}
+
+.icon {
+    margin-right: 10px;
+}
