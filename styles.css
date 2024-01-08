@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.offer h2 {
+.discount {
   color: red;
   font-size: 88px;
   font-weight: 700;
@@ -239,16 +239,23 @@ body {
   height: 1000px;
 }
 
-.offer h3 {
+.holidayOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holidayOffer h3 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 
-.offer h2 {
+.holidayOffer h2 {
   font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
+  align-items: center;
   color: black;
 }
 
@@ -256,13 +263,14 @@ body {
   color: red;
 }
 
-.offer p {
+.holidayOffer p {
   font-family: "Inter", sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
+  width: 1000px;
 }
 
 .images {
@@ -325,6 +333,73 @@ body {
   display: flex;
   flex-direction: row;
   gap: 24px;
+}
+
+.item1 {
+  background-image: url("./resources/Rectangle\ 3.png");
+}
+.item2 {
+  background-image: url("./resources/Rectangle\ 4.png");
+}
+.item3 {
+  background-image: url("./resources/Rectangle\ 5.png");
+}
+.item4 {
+  background-image: url("./resources/Rectangle\ 6.png");
+}
+.item5 {
+  background-image: url("./resources/Rectangle\ 7.png");
+}
+.item6 {
+  background-image: url("./resources/Rectangle\ 8.png");
+}
+
+.item1:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item2:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item3:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item4:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item5:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item6:hover {
+  background-image: url("./resources/eye.png"),
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("./resources/Rectangle\ 8.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .items {
@@ -422,8 +497,8 @@ footer {
 }
 
 .social {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
   margin-top: 200px;
 }
 
@@ -449,9 +524,9 @@ footer li {
   height: 30px;
   border: none;
   background-color: black;
-  color: white ;
+  color: white;
 }
 
 .icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }
